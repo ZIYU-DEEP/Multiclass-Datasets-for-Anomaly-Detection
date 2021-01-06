@@ -79,9 +79,9 @@ Besides the above new datasets mentioned, I have also used the following dataset
     - [UCI Satimage](https://www.openml.org/d/182)
     - [Spectrum](https://github.com/ZIYU-DEEP/Anomaly-Detection-for-Spectrum)
 - **Datasets attempted but discarded**:
-    - [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html): No downward bias found due to lack of classes with close proximity (*e.g.* `top` and `shirt` in [FashionMNIST](https://github.com/zalandoresearch/fashion-mnist)), thus we do not observe downward bias.
+    - [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html): No downward bias found due to lack of classes with close proximity (*e.g.* `top` and `shirt` in FashionMNIST), thus we do not observe downward bias.
     - [ImageNet](https://gist.github.com/yrevar/942d3a0ac09ec9e5eb3a): No significant downward bias found for now (*p.s.* only semi-supervised trained on a few selected classes), and the training takes too long while the test results are a bit unstable.
-    - [MNIST](http://yann.lecun.com/exdb/mnist/): No significant downward bias found for now (*p.s.* only tested the case when digit `7` is set to be normal) found for now. Plus, experiments on this dataset is considered when we already have [FashionMNIST](https://github.com/zalandoresearch/fashion-mnist).
+    - [MNIST](http://yann.lecun.com/exdb/mnist/): No significant downward bias found for now (*p.s.* only tested the case when digit `7` is set to be normal) found for now. Plus, experiments on this dataset is considered when we already have FashionMNIST.
     - [Drivers' Anomaly Dataset](https://github.com/okankop/Driver-Anomaly-Detection): No significant downward bias found due to low detection rate in the unsupervised setting.
     - [UCI Covertype](https://www.openml.org/d/150): Weak downward bias found on other classes when training class 2 and class 4, but the problem is that this two classes are very *different* from each other, which is a bit inconsistent with our previous idea that downward bias is more likely to exist when training with two *similar* classes.
     - [UCI Shuttle](https://www.openml.org/d/40685): Found consistent (though weak) downward bias on One-Class models, but the training for reconstruction models are quite unstable with loss explosion problem.
