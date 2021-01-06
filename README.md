@@ -9,7 +9,7 @@
 - **format**: images
 - **volume**: 84K images in total
 - **no. of labeled classes**: 1 normal class and 3 abnormal classes
-- **papers using the data**: [kermany et al, 2018](https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5), [Suzuki and Suzuki, 2020](https://arxiv.org/abs/2001.05859v5), [Seeböck et al, 2019](https://arxiv.org/abs/1905.12806v1), [Waldstein et al, 2020](https://www.nature.com/articles/s41598-020-69814-1).
+- **papers using the data**: [Kermany et al, 2018](https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5), [Suzuki and Suzuki, 2020](https://arxiv.org/abs/2001.05859v5), [Seeböck et al, 2019](https://arxiv.org/abs/1905.12806v1), [Waldstein et al, 2020](https://www.nature.com/articles/s41598-020-69814-1).
 
 #### 1.2. [UCI Cardiotocography Dataset](https://www.kaggle.com/propanon/uci-cardiotocography) [🧑🏻‍🚀: preprocessing for training]
 - **format**: descriptive (numerical) records, 36 features per record
