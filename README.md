@@ -1,5 +1,6 @@
 # Multiclass Datasets for Anomaly Detection
-*This file includes new multi-class datasets for anomaly detection tasks which have been used in previous literature, for our current anomaly detection project.*    
+*This file includes new multi-class datasets for anomaly detection tasks which have been used in previous literature, for our current anomaly detection project.*     
+
 *🧑🏻‍🚀 represent my current coding status on that dataset.*
 
 
