@@ -5,7 +5,7 @@
 
 
 ## 1. Numerical / Image Datasets
-#### 1.1. [Retinal OCT Images](https://www.kaggle.com/paultimothymooney/kermany2018) [🧑🏻‍🚀: in training]
+#### 1.1. [Retinal OCT Images](https://www.kaggle.com/paultimothymooney/kermany2018) [🧑🏻‍🚀: finished initial training]
 - **format**: images
 - **volume**: 84K images in total
 - **no. of labeled classes**: 1 normal class and 3 abnormal classes
